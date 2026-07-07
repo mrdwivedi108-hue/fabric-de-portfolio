@@ -1,0 +1,29 @@
+{
+    "name": "Pipeline_2",
+    "objectId": "9d239d0a-a905-4dd0-8da9-c147210bb6b3",
+    "properties": {
+        "activities": [
+            {
+                "name": "Dataflow1",
+                "type": "RefreshDataflow",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "0.12:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "typeProperties": {
+                    "dataflowId": "cc4a54fc-a2de-42b9-9d78-7c35c25d3ac1",
+                    "workspaceId": "1a338a27-05f2-43e1-ad48-88b13e5bd3c0",
+                    "notifyOption": "NoNotification",
+                    "dataflowType": "DataflowFabric",
+                    "executeMashupQueriesOnly": true
+                }
+            }
+        ],
+        "lastModifiedByObjectId": "aa694de5-51b5-42be-9db8-2e743445a01b",
+        "lastPublishTime": "2026-07-07T09:16:32Z"
+    }
+}
